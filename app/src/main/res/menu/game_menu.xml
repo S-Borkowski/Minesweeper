@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/options"
+        android:title="Options">
+        <menu>
+            <item android:id="@+id/grid"
+                android:title="Grid" >
+                <menu>
+                    <item android:id="@+id/eightXeight"
+                        android:title="8x8" />
+                    <item android:id="@+id/tenXten"
+                        android:title="10x10" />
+                    <item android:id="@+id/twelveXtwelve"
+                        android:title="12x12" />
+                    <item android:id="@+id/fourteenXfourteen"
+                        android:title="14x14" />
+                </menu>
+            </item>
+
+            <item android:id="@+id/mines"
+                android:title="Mines" >
+                <menu>
+                    <item android:id="@+id/FiveMines"
+                        android:title="5Mines" />
+                    <item android:id="@+id/TenMines"
+                        android:title="10Mines" />
+                    <item android:id="@+id/FifteenMines"
+                        android:title="15Mines" />
+                    <item android:id="@+id/TwentyFiveMines"
+                        android:title="25Mines" />
+                    <item android:id="@+id/FourtyMines"
+                        android:title="40Mines" />
+                </menu>
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/help"
+        android:title="Help">
+    </item>
+    <item
+        android:id="@+id/help2"
+        android:title="Help 2">
+    </item>
+    <item
+        android:id="@+id/help3"
+        android:title="Help 3">
+    </item>
+</menu>
